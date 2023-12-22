@@ -1,0 +1,27 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    // "moduleResolution": "",
+    "downlevelIteration": true,
+    "resolveJsonModule": true,
+    "noEmit": true,
+    "jsx": "preserve",
+    "types": ["node", "vitest/globals", "@testing-library/jest-dom"],
+    "typeRoots": ["./node_modules/@types", "./types"]
+  },
+  "include": ["packages", "types"],
+  "exclude": [
+    "node_modules",
+    "**/dist/*",
+    "**/dist-production/*",
+    "**/dist-staging/*",
+    "**/node_modules/*"
+  ]
+}
